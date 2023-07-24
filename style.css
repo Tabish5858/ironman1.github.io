@@ -1,0 +1,415 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ********* ✅✅ Navigation bar ✅✅ ********* */
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    /* width: 90%; */
+    /* background-color: aqua; */
+}
+
+.right>ul {
+    list-style: none;
+    display: flex;
+}
+
+.right>ul>li>a {
+    margin: 0 8px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.right>ul>li:hover {
+    color: rgba(255, 0, 0, 0.699);
+    text-decoration: underline;
+
+}
+
+.left>h1>a {
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: 100;
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.699);
+}
+
+/* ********* ✅✅ main ✅✅ ********* */
+
+.mainsection{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    height: 100vh;
+    width: 98vw;
+    overflow: hidden;
+}
+.mainsection>video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: transparent;
+}
+
+
+
+.leftsection {
+    position: relative;
+    /* background-color: red; */
+    height: 100vh;
+    width: 45vw;
+}
+.leftsection>h2>button{
+    background-color: black;
+    color: rgba(255, 0, 0, 0.699);
+    font-size: 1vw;
+    font-weight: 600;
+    padding:0.8vw 0.5vw;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.leftsection>h2>button:hover{
+    background-color:rgba(255, 0, 0, 0.699) ;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+.leftsection>h2 {
+    position: relative;
+    top: 20%;
+    left: 23%;
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+.leftsection>h2>span {
+    /* color: rgba(255, 0, 0, 0.699); */
+    color: gold;
+}
+
+
+
+.rightsection {
+    position: relative;
+    /* background-color: blue; */
+    height: 100vh;
+    width: 45vw;
+}
+
+.rightsection>video {
+    margin-top: 2vw;
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+
+
+
+
+/* <!-- ********* ✅✅ 1st Section ✅✅ ********* -->  */
+
+#firstsection {
+    position: relative;
+    height: 100vh;
+    width: 98.9vw;
+    overflow: hidden;
+}
+
+#firstsection>video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#firstsection>h1 {
+    position: absolute;
+    margin-left: 4vw;
+    font-size: 2.4vw;
+    font-weight: 500;
+}
+
+#firstsection>h4 {
+    position: absolute;
+    top: 7%;
+    color: black;
+    margin-left: 4.3vw;
+    font-size: 1vw;
+    font-weight: 100;
+    color: white;
+}
+
+#firstsection>.box {
+    top: 19%;
+    position: relative;
+    left: 2%;
+    background-color: white;
+    width: 95vw;
+    height: 2px;
+    margin: 54px 0;
+    display: flex;
+}
+
+.vertical {
+    height: 93px;
+    width: 2px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.vertical>img {
+    position: relative;
+    top: -67px;
+    width: 70px;
+    left: -29px;
+}
+
+.verticalhead>a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.verticalhead>a>h1 {
+    position: relative;
+    top: 30px;
+    font-size: 1.5vw;
+    font-weight: 500;
+    width: 12vw;
+    line-height: 1;
+    color: gold;
+    width: fit-content;
+}
+
+.verticalpara>p {
+    position: relative;
+    top: 45px;
+    width: 8vw;
+    height: 4vh;
+    font-size: 0.8vw;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/* <!-- ********* ✅✅ 2st Section ✅✅ ********* -->  */
+
+
+
+
+#secondsection{
+    position: relative;
+    background-color: black;
+}
+#secondsection>h1{
+    margin: 2vw;
+}
+
+.topfights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    /* width: 100vw; */
+}
+.fightvideo{
+    margin: 1rem;
+    width: 60vw;
+    height: 90vh;
+    overflow: hidden;
+}
+.fightvideo>video{
+   width: 55vw;
+   height: 95vh;
+   /* position: absolute; */
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   border-radius: 20px;
+}
+.fightdata{
+    position: relative;
+    top: 30%;
+    margin: 1rem;
+    width: 40vw;
+    height: 90vh;
+}
+.fightdata>h1{
+    color: gold;
+}
+.fightdata>p{
+    color: rgb(255, 17, 17);
+}
+
+
+
+
+
+/* <!-- ********* ✅✅ 3rd Section ✅✅ ********* -->  */
+
+
+#thirdsection{
+    position: relative;
+    background-color: black;
+}
+#thirdsection>h1{
+    margin: 2vw;
+    color: gold;
+}
+.finalmoment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 95vw;
+}
+.finalvideo>video{
+    width: 50vw;
+    height: 95vh;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.finaltext{
+    position: relative;
+    top: 25%;
+    left: 10%;
+    margin: 1rem;
+    width: 20vw;
+    height: 90vh;
+}
+.finaltext>h1{
+    color: gold;
+}
+.finaltext>p{
+    color: rgb(255, 17, 17);
+    width: 15vw;
+}
+
+
+
+
+
+
+
+
+
+
+/* <!-- ********* ✅✅ Footer Section ✅✅ ********* -->  */
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#footersection {
+    position: relative;
+    height: 90vh;
+    width: 98.9vw;
+    /* background-color: gray; */
+}
+
+#footersection>h1{
+    position: absolute;
+    margin: 3vw;
+}
+#footersection>h3{
+    position: absolute;
+    margin: 7vw;
+}
+
+#viwer {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vw;
+}
+
+#viwer>form {
+    display: flex;
+    flex-direction: column;
+}
+
+#viwer>form>input {
+    font-size: 1vw;
+    padding: 3px 5px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    background: transparent;
+}
+
+#viwer>form>input[type="submit"],
+#viwer>form>input[type="reset"] {
+    padding: 8px 0px;
+    line-height: 1;
+}
+
+#viwer>form>input[type="submit"]:hover,
+#viwer>form>input[type="reset"]:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    transition: 0.2s ease-in all;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* <!-- ********* ✅✅ Copyright Section ✅✅ ********* -->  */
+
+
+#copyright {
+    font-size: 1vw;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

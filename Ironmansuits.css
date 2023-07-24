@@ -1,0 +1,317 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ********* ✅✅ Navigation bar ✅✅ ********* */
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    /* width: 90%; */
+    /* background-color: aqua; */
+}
+
+.right>ul {
+
+    list-style: none;
+    display: flex;
+}
+
+.right>ul>li>a {
+    margin: 0 8px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.right>ul>li:hover {
+    color: rgba(255, 0, 0, 0.699);
+    text-decoration: underline;
+
+}
+
+.left>h1>a{
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: 100;
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.699);
+}
+
+
+
+
+/* ********* ✅✅ Main ✅✅ ********* */
+
+
+#main{
+    position: relative;
+    /* background-color:rebeccapurple; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+}
+
+
+
+/* ********* ✅✅ Page 1 ✅✅ ********* */
+
+
+#page1{
+    position: relative;
+    height: 120vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#pagge1>video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#page1>#left1{
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
+#page1>#right1{
+    position: relative;
+    right: 5%;
+    top: 10%;
+    width: 55vw;
+    height: 75vh;
+}
+#page1>#right1>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#page1>#right1>img:hover{
+    /* position: relative; */
+    width: 120%;
+    height: 130%;
+    transition: 0.5s ease-in;
+    position: relative;
+    right: 10%;
+}
+
+/* ********* ✅✅ Page 2 ✅✅ ********* */
+
+
+#page2{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+}
+#page2>img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+#page2>h1{
+  position: relative;
+  /* left: 5%; */
+  top: 5%;
+  text-align: center;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+#center>ul{
+    line-height: 3;
+}
+#center>ul>li{
+   text-decoration: none;
+   color: gold;
+   font-weight: 600;
+}
+#center>ul>li:hover{
+    color: red;
+}
+
+/* ********* ✅✅ Page 3 ✅✅ ********* */
+
+
+#page3{
+    position: relative;
+    height: 150vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+}
+#page3>h1{
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+#center3{
+    position: relative;
+    top: 5%;
+    height: 110vh;
+}
+#center3>img{
+    width: 91%;
+    height: 120vh;
+    object-fit: cover;
+}
+
+
+
+
+/* ********* ✅✅ Page 4 ✅✅ ********* */
+
+
+#page4{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+}
+#page4>h1{
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+#center4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    /* background-color: red; */
+    height: 90vh;
+    width: 100vw;
+}
+#center4>img{
+    /* width: 40%; */
+    height: 80vh;
+    width: 40vw;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+
+
+
+/* ********* ✅✅ Page 5 ✅✅ ********* */
+
+
+#page5{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+}
+#page5>h1{
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+#center5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    /* background-color: red; */
+    height: 90vh;
+    width: 100vw;
+}
+#center5>img{
+    /* width: 40%; */
+    height: 80vh;
+    width: 40vw;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+
+
+/* ********* ✅✅ Page 6 ✅✅ ********* */
+
+
+#page6{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+}
+#page6>h1{
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+#center6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    /* background-color: red; */
+    height: 90vh;
+    width: 100vw;
+}
+#center6>img{
+    /* width: 40%; */
+    height: 85vh;
+    width: 60vw;
+    border-radius: 5%;
+    object-fit: cover;
+}
+/* ********* ✅✅ Page 7 ✅✅ ********* */
+
+
+#page7{
+    position: relative;
+    height: 120vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+}
+#page7>h1{
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+#center7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 5%;
+    /* background-color: red; */
+    height: 100vh;
+    width: 90vw;
+}
+#center7>img{
+    /* width: 40%; */
+    height: 100vh;
+    width: 35vw;
+    border-radius: 5%;
+    object-fit: cover;
+}

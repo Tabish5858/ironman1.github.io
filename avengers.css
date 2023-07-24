@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ********* ✅✅ Navigation bar ✅✅ ********* */
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    /* width: 90%; */
+    /* background-color: aqua; */
+}
+
+.right>ul {
+
+    list-style: none;
+    display: flex;
+}
+
+.right>ul>li>a {
+    margin: 0 8px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.right>ul>li:hover {
+    color: rgba(255, 0, 0, 0.699);
+    text-decoration: underline;
+
+}
+
+.left>h1>a{
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: 100;
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.699);
+}
+
+
+
+
+/* ********* ✅✅ Main ✅✅ ********* */
+
+
+#main{
+    position: relative;
+    /* background-color:rebeccapurple; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+}
+
+
+/* ********* ✅✅ Page 1 ✅✅ ********* */
+
+
+#page1{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+}
+#page1>img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+#page1>#left1{
+    position: relative;
+    top: 35%;
+    left: 15%;
+}
+#page1>#left1>h1{
+    color: rgba(0, 0, 0, 0.678);
+}
+
+
+/* ********* ✅✅ Page 2 ✅✅ ********* */
+
+
+#page2{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+}
+#page2>h1{
+    position: relative;
+    top: 5%;
+    left:15%;
+    color: whitesmoke;
+    text-align: center;
+    width: 70%;
+}
+#centre2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 15%;
+
+}
+#centre2>ul{
+    list-style: disc;
+    line-height: 2.5;
+    color: white;
+
+}
+#centre2>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#centre2>ul>li>a:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+
+
+
+
+
+
+
+/* ********* ✅✅ Page 3 ✅✅ ********* */
+
+
+
+
+
+#page3{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.videobox{
+    height: 70vh;
+    width: 50vw;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    /* background-color: white; */
+}
+.videobox>video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+.videotext{
+    height: 70vh;
+    width: 30vw;
+    position: relative;
+    top: 20%;
+    right: 5%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/* ********* ✅✅ Page 4 ✅✅ ********* */
+
+
+
+
+
+#page4{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
+
+/* ********* ✅✅ Page 5 ✅✅ ********* */
+
+
+
+
+
+#page5{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
+/* ********* ✅✅ Page 6 ✅✅ ********* */
+
+
+
+
+
+#page6{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
+
+/* ********* ✅✅ Page 7 ✅✅ ********* */
+
+
+
+
+
+#page7{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
+/* ********* ✅✅ Page 8 ✅✅ ********* */
+
+
+
+
+
+#page8{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
+/* ********* ✅✅ Page 9 ✅✅ ********* */
+
+
+
+
+
+#page9{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
+/* ********* ✅✅ Page 10 ✅✅ ********* */
+
+
+
+
+
+#page10{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
+/* ********* ✅✅ Page 11 ✅✅ ********* */
+
+
+
+
+
+#page11{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
+/* ********* ✅✅ Page 12 ✅✅ ********* */
+
+
+
+
+
+#page12{
+    position: relative;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    color: white;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+
+
